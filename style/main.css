@@ -1,0 +1,20 @@
+body{
+	margin:0;
+	padding: 0;
+}
+.logo{
+	transform: scale(1.2);
+}
+nav{
+	font-family: 'Righteous', cursive;
+	color: black;
+}
+
+nav li a{
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+nav a{
+	color: black;
+}
