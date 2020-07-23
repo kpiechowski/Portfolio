@@ -1,20 +1,43 @@
 body{
 	margin:0;
 	padding: 0;
+	background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 19%, rgba(106,206,164,1) 55%, rgba(240,143,6,1) 100%);
 }
 .logo{
 	transform: scale(1.2);
 }
 nav{
+	height: 10vh;
 	font-family: 'Righteous', cursive;
 	color: black;
+	border-bottom: 2px solid black;
 }
-
+.navbar-toggler{
+	background: white;
+	border:2px solid black;
+}
+.navbar-toggler-icon{
+	background: black;
+	border-radius: 50%;
+	color: black
+}
 nav li a{
 	text-transform: uppercase;
 	transition: 0.5s;
+	transform: scale(1.1);
+	margin-left: 30px;
 }
 
 nav a{
 	color: black;
+}
+.welcome{
+	height: 90vh;
+	/*display: flex;
+	
+	align-items: center;*/
+}
+.welcome-panel{
+	border:2px solid black;
 }
