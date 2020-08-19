@@ -1,8 +1,14 @@
 body{
 	margin:0;
 	padding: 0;
-	background: rgb(0,212,255);
-background: linear-gradient(90deg, rgba(0,212,255,1) 19%, rgba(106,206,164,1) 55%, rgba(240,143,6,1) 100%);
+	
+
+}
+.b-blue{
+	background-color: #66D3FA;
+}
+.b-purple{
+	background-color: #8D3C9A;
 }
 .logo{
 	transform: scale(1.2);
@@ -34,10 +40,34 @@ nav a{
 }
 .welcome{
 	height: 90vh;
-	/*display: flex;
-	
-	align-items: center;*/
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
 }
 .welcome-panel{
+	
+}
+.welcome-intro > h3{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+.welcome-intro{
+	text-align: center;
+	font-size: 20px;
+	padding:8px;
+	box-shadow: -2px 2px 0px  grey;
+	border-radius: 3px;
+	
+}
+.intro-buttons-container{
+	display: flex;
+	width: 50%;
+	margin: auto;
+	justify-content: space-around;
+	font-family: 'Righteous', cursive
+}
+.intro-button{
+	border-radius: 3px;
 	border:2px solid black;
+	padding:5px;
 }
