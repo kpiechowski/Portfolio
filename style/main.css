@@ -1,7 +1,7 @@
 body{
 	margin:0;
 	padding: 0;
-	
+	overflow-x: hidden;
 
 }
 .b-blue{
@@ -41,10 +41,27 @@ nav a{
 .welcome{
 	height: 90vh;
 	display: flex;
-	justify-content:space-between;
+	background-image: url("../imgs/programmer-bg.png");
+	
 	align-items: center;
 }
 .welcome-panel{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+	width: 50vw;
+	height: 90vh;
+}
+.welcome-panel img{
+	height: 100%;
+	filter: grayscale(100);
+	float:right;
+	transition: 1s ease-in-out;
+}
+.welcome-panel img:hover{
+	
+	filter: grayscale(0);
 	
 }
 .welcome-intro > h3{
@@ -54,9 +71,11 @@ nav a{
 .welcome-intro{
 	text-align: center;
 	font-size: 20px;
+	background-color: rgba(255,255,255, 0.8);
 	padding:8px;
-	box-shadow: -2px 2px 0px  grey;
+	box-shadow:5px 5px 8px;
 	border-radius: 3px;
+	width: 80%;
 	
 }
 .intro-buttons-container{
@@ -70,4 +89,7 @@ nav a{
 	border-radius: 3px;
 	border:2px solid black;
 	padding:5px;
+}
+.about-me{
+	height:1000px;
 }
