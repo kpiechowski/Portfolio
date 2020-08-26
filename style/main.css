@@ -45,6 +45,7 @@ nav a{
 	background-size: cover;
 	background-position: top;
 	align-items: center;
+	margin-bottom: 100px;
 }
 .welcome-panel{
 	display: flex;
