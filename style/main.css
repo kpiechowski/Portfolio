@@ -143,7 +143,10 @@ nav a{
 	border-radius: 5px;
 }
 .about-me-img{
-	
+	transition: ease-in-out 1s;
+}
+.about-me-img:hover{
+	transform: scale(1.07);
 }
 /*.about-me-img:after{
 	content: "";
@@ -157,3 +160,28 @@ nav a{
 	z-index: 1;
 	
 }*/
+
+.about-me-future{
+	width: 100%;
+	background: black;
+	
+	text-align: center;
+	padding-top: 60px;
+}
+.future-header{
+	color: #66D3FA;
+	font-size: 40px;
+	font-family: 'Righteous', cursive;
+	text-transform: uppercase;
+	text-shadow: 30px 30px #eb3be4;
+	margin-bottom: 70px;
+}
+.future-text{
+	color: white;
+	font-size: 22px;
+	margin-top: 50px;
+	margin-bottom: 0;
+	padding-bottom: 60px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
