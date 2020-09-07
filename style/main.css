@@ -7,8 +7,20 @@ body{
 .b-blue{
 	background-color: #66D3FA;
 }
+.c-blue{
+	color: #66D3FA;
+}
+.c-purple{
+	color: #eb3be4;
+}
 .b-purple{
-	background-color: #8D3C9A;
+	background-color: #eb3be4;
+}
+.shadow-purple{
+	box-shadow: 80px 50px rgba(235, 59, 228, 0.4);
+}
+.shadow-blue{
+	box-shadow: -80px -50px rgba(102, 211, 250, 0.4);
 }
 .logo{
 	transform: scale(1.2);
@@ -96,7 +108,7 @@ nav a{
 	height:1000px;
 }
 .section-header{
-	
+	margin-bottom: 100px;
 }
 .section-header-small{
 	font-family: 'Righteous', cursive;
@@ -115,3 +127,33 @@ nav a{
 	height: 5px;
 	background-color:black;
 }
+.about-row{
+	margin-bottom: 200px;
+}
+.about-me-text{
+	font-size: 22px;
+	padding:15px;
+}
+.about-me-text h4{
+	font-size: 30px;
+	margin-bottom: 20px;
+	
+}
+.about-me-img img{
+	border-radius: 5px;
+}
+.about-me-img{
+	
+}
+/*.about-me-img:after{
+	content: "";
+	display: block;
+	width: 500px;
+	height: 400px;
+	background-color: #eb3be4;
+	position: relative;
+	top:-290px;
+	left: 150px;
+	z-index: 1;
+	
+}*/
