@@ -224,15 +224,47 @@ height:5000px;
 	animation: swing 3s infinite;
 
 }
+.skills-content{
+	margin-top: 80px;
+}
+.com-img{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+}
+.com-img img{
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+
+.com-bar{
+	border:2px solid #eb3be4;
+	transition: all 1s ease;
+	font-family: 'Righteous', cursive;
+	font-size: 25px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-bottom-right-radius: 50px;
+	border-top-right-radius: 50px;
+	/*background: linear-gradient(90deg, rgba(0,212,255,1) 60%, rgba(255,255,255,1) 60%);*/
+}
+.skills-row{
+	margin-bottom: 30px;
+}
+.skills-row:hover img{
+	animation:jump-up 1s infinite;
+}
 
 
 
-
-
-
-
-
-
+@keyframes jump-up{
+  0%   {top: 0;}
+  50%  {top: -20px;}
+  100% {top: 0; }
+}
 
 @keyframes shadow {
   0%   {text-shadow: 30px 30px rgba(235, 59, 228, 0.4)}
