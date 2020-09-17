@@ -3,6 +3,7 @@ body{
 	padding: 0;
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
+	scroll-behavior: smooth;
 }
 .b-blue{
 	background-color: #66D3FA;
@@ -321,10 +322,69 @@ nav a{
 	font-size: 20px;
 }
 
+.projects{
+	flex-direction: column;
+	height: 600px;
+	width:100%;
+	background-image: url("../imgs/projects.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 
+}
+.projects-info{
+	background-color: white;
+	position: relative;
+	width: 550px;
+	padding: 25px;
+	color: #444;
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	border-bottom: 4px solid #eb3be4;
+	border-right: 4px solid #eb3be4;
+	border-left: 4px solid #66D3FA;
+	border-top: 4px solid #66D3FA;
+}
+.projects-go{
+	font-size: 30px;
+	font-family: 'Righteous', cursive;
+	margin-top: 30px;
+	background-color: #66D3FA;
+	padding:10px 15px;
+	border-radius: 10px;
+	/*border:3px solid #eb3be4;*/
+	color: #fff;
+	box-shadow: 0px 4px grey;
+	position: relative;
+	overflow:hidden;
+	cursor: pointer;
+
+}
+.projects-go-hover{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: -200px;
+	background-color: #eb3be4;
+	padding:10px 15px;
+	border-radius: 10px;
+	text-align: center;
+	transition: .5s linear;
+}
+.projects-go:hover .projects-go-hover{
+	left: 0;
+}
+.projects-pop{
+	right: -80px;
+	top: -30px;
+}
 footer{
 	width: 100%;
-	margin-top: 70px;
+	
 	background-color: #333;
 }
 
@@ -344,6 +404,7 @@ footer{
 	font-size: 18px;
 	color: white;
 	padding-bottom: 20px;
+	font-family: 'Righteous', cursive;
 }
 .footer-panel{
 	/*border:2px solid red;*/
