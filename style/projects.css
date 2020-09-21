@@ -1,0 +1,48 @@
+.projects-container{
+ text-align: center;
+ 
+}
+.projects-container h2{
+	border-bottom: 4px solid #eb3be4;
+	border-right: 4px solid #eb3be4;
+	border-left: 4px solid #66D3FA;
+	border-top: 4px solid #66D3FA;
+	font-family: 'Righteous', cursive;
+	padding:10px 5px;
+	color: #333;
+	box-shadow: 4px 4px gray;
+	margin-bottom: 80px;
+}
+.website-panel{
+	/*border:2px solid gray;*/
+	padding:0;
+	box-shadow: 5px 5px gray;
+	/*border-bottom: 8px solid #66D3FA;*/
+	border-top: 4px solid #eb3be4;
+}
+.panel-title{
+	font-size: 22px;
+	font-family: 'Righteous', cursive;
+	padding:8px 0;
+	background-color: #ddd;
+}
+.panel-img img{
+	width: 100%;
+}
+.panel-buttons{
+	padding:10px 0;
+}
+.project-button{
+	font-family: 'Righteous', cursive;
+	border-radius: 5px;
+	box-shadow: 0 3px gray;
+	padding:8px;
+	font-size: 18px;
+	cursor: pointer;
+}
+.comming-soon{
+	font-size: 30px;
+	font-family: Arial;
+	margin:40px 0;
+	background-color: #eee;
+}

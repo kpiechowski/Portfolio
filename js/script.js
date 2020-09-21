@@ -21,3 +21,8 @@ function progressBar(){
 
 }
 
+
+document.querySelector("#see-more").addEventListener("click",function(){
+	document.querySelector(".about-me").scrollIntoView({ behavior: 'smooth', block: 'start'});
+	console.log("ok");
+});

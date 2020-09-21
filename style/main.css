@@ -5,6 +5,9 @@ body{
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
 }
+a:hover{
+	text-decoration: none;
+}
 .b-blue{
 	background-color: #66D3FA;
 }
@@ -106,8 +109,15 @@ nav a{
 }
 .intro-button{
 	border-radius: 3px;
-	border:2px solid black;
+	/*border:2px solid black;*/
+	box-shadow: 0 5px gray;
 	padding:5px;
+	position: relative;
+	cursor: pointer;
+	transition: 1s ease-in-out;
+}
+.intro-button:hover{
+	animation: jump-up 1s 1;
 }
 .about-me{
 	margin-bottom: 100px;
@@ -169,7 +179,7 @@ nav a{
 .about-me-future{
 	width: 100%;
 	background: black;
-	box-shadow: 0 0 10px 5px;
+	box-shadow: 0 0 2px 5px gray;
 	text-align: center;
 	padding-top: 60px;
 }
@@ -301,9 +311,11 @@ nav a{
 	position:relative;
 	text-align: center;
 	box-shadow: 5px 5px 0 1px grey;
+	transition: .5s linear;
 }
 .future-panel-body:hover{
 	animation:jump-up 1s infinite;
+	background-color: #eee;
 }
 .future-panel-header{
 	padding: 5px;
@@ -350,7 +362,6 @@ nav a{
 }
 .projects-go{
 	font-size: 30px;
-	font-family: 'Righteous', cursive;
 	margin-top: 30px;
 	background-color: #66D3FA;
 	padding:10px 15px;
@@ -361,6 +372,11 @@ nav a{
 	position: relative;
 	overflow:hidden;
 	cursor: pointer;
+
+}
+.projects-go a{
+	font-family: 'Righteous', cursive;
+	color: #fff;
 
 }
 .projects-go-hover{
@@ -396,7 +412,7 @@ footer{
 	color: white;
 	font-family: 'Righteous', cursive;
 	font-size: 25px;
-	box-shadow: 0 -10px 10px #66D3FA;
+	box-shadow: 0 -5px 10px #66D3FA;
 }
 .main-footer{
 	width: 100%;
@@ -447,7 +463,7 @@ footer{
 }
 @keyframes jump-up{
   0%   {top: 0;}
-  50%  {top: -20px;}
+  50%  {top: -10px;}
   100% {top: 0; }
 }
 
