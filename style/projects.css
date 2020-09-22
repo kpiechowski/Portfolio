@@ -1,3 +1,9 @@
+a{
+	color: black;
+}
+a:hover{
+	color: black;
+}
 .projects-container{
  text-align: center;
  
@@ -12,6 +18,7 @@
 	color: #333;
 	box-shadow: 4px 4px gray;
 	margin-bottom: 80px;
+	margin-top: 50px;
 }
 .website-panel{
 	/*border:2px solid gray;*/
@@ -19,6 +26,10 @@
 	box-shadow: 5px 5px gray;
 	/*border-bottom: 8px solid #66D3FA;*/
 	border-top: 4px solid #eb3be4;
+	
+}
+.website-panel:hover{
+	animation: shake .5s 1;
 }
 .panel-title{
 	font-size: 22px;
@@ -28,6 +39,11 @@
 }
 .panel-img img{
 	width: 100%;
+	filter: grayscale(100%);
+	transition: .5s linear;
+}
+.website-panel:hover img{
+	filter: grayscale(0);
 }
 .panel-buttons{
 	padding:10px 0;
@@ -45,4 +61,14 @@
 	font-family: Arial;
 	margin:40px 0;
 	background-color: #eee;
+}
+
+
+
+@keyframes shake{
+  0%   {left: 0;}
+  25%  {left: -2px;}
+  50%  {left: 0px;}
+  75%  {left: 2px;}
+  100% {left: 0; }
 }

@@ -4,6 +4,10 @@ body{
 	overflow-x: hidden;
 	font-family: 'Lato', sans-serif;
 	scroll-behavior: smooth;
+	background-image: url(../imgs/background.png);
+	background-size: cover;
+	background-attachment:fixed;
+	background-position: bottom;
 }
 a:hover{
 	text-decoration: none;
