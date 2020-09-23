@@ -39,6 +39,11 @@ a:hover{
 .logo{
 	transform: scale(1.2);
 }
+.smaller-h1{
+	text-align: center;
+	font-family: 'Righteous', cursive;
+	transform:scale(0.7);
+}
 nav{
 	height: 10vh;
 	font-family: 'Righteous', cursive;
@@ -134,12 +139,25 @@ nav a{
 }
 .section-header{
 	margin-bottom: 100px;
+	position:relative;
+}
+.section-header::after{
+	content:"";
+	display: block;
+	position: absolute;
+	width:100%;
+	height: 5px;
+	background-color: black;
+	top: 90px;
+
 }
 .section-header-small{
 	font-family: 'Righteous', cursive;
 	margin-bottom: 0px;
 	color: #66D3FA;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
+	font-size: 14px;
+	display: block;
 
 }
 .section-header-big{
@@ -147,11 +165,7 @@ nav a{
 	font-family: 'Righteous', cursive;
 	margin-left: 10%;
 }
-.section-header-break{
-	width: 100%;
-	height: 5px;
-	background-color:black;
-}
+
 .about-row{
 	margin-bottom: 200px;
 }
@@ -208,8 +222,7 @@ nav a{
 	margin-top: 50px;
 	margin-bottom: 0;
 	padding-bottom: 60px;
-	padding-right: 50px;
-	padding-left: 50px;
+	
 }
 
 
