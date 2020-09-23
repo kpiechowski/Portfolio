@@ -399,7 +399,7 @@ nav a{
 	padding:10px 15px;
 	border-radius: 10px;
 	text-align: center;
-	transition: .5s linear;
+	transition: .4s cubic-bezier(0.42, 0, 0, 1.35)
 }
 .projects-go:hover .projects-go-hover{
 	left: 0;
