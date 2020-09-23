@@ -9,6 +9,12 @@ body{
 	background-attachment:fixed;
 	background-position: bottom;
 }
+a{
+	color: black;
+}
+a:hover{
+	color: black;
+}
 a:hover{
 	text-decoration: none;
 }

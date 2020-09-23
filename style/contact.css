@@ -1,0 +1,24 @@
+.text{
+	font-family: 'Righteous', cursive;
+	font-size: 28px;
+	display: flex;
+	align-items:center;
+	color: #555 !important;
+	box-shadow: 0 3px gray;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+.icon{
+	border-radius: 10px;
+	box-shadow: 0 3px gray;
+	padding: 10px;
+	
+	text-align:center;
+}
+.link-body{
+	
+	
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
