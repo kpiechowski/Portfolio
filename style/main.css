@@ -452,9 +452,9 @@ footer{
 .footer-panel img{
 	border-radius: 50%;
 	border:2px solid #66D3FA;
-	width:100px;
-	height:100px;
-	margin:auto;
+	width:80px;
+	height:80px;
+	margin:0 auto;
 }
 .bottom-footer{
 	width: 100%;
