@@ -9,6 +9,9 @@ body{
 	background-attachment:fixed;
 	background-position: bottom;
 }
+html{
+	overflow-x: hidden;
+}
 a{
 	color: black;
 }
@@ -72,35 +75,14 @@ nav a{
 .welcome{
 	height: 90vh;
 	display: flex;
-	background-image: url("../imgs/programmer-bg2.png");
+	background-image: url("../imgs/programmer-bg3.png");
 	background-size: cover;
 	background-position: top;
 	align-items: center;
 	margin-bottom: 100px;
 }
-.welcome-panel{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-	width: 50vw;
-	height: 90vh;
-}
-.welcome-panel img{
-	height: 100%;
-	filter: grayscale(100);
-	float:right;
-	transition: 1s ease-in-out;
-}
-.welcome-panel img:hover{
-	
-	filter: grayscale(0);
-	
-}
-.welcome-intro > h3{
-	text-align: center;
-	font-family: 'Righteous', cursive;
-}
+
+
 .welcome-intro{
 	text-align: center;
 	font-size: 20px;
@@ -112,7 +94,7 @@ nav a{
 	padding:8px;
 	box-shadow:5px 5px gray;
 	border-radius: 3px;
-	width: 80%;
+	
 	
 }
 .intro-buttons-container{
@@ -518,5 +500,70 @@ footer{
 	100% {
 		transform: scale(0.99);
 		box-shadow: 0 0 0 0 rgba(200, 200, 200, 0);
+	}
+}
+
+
+@media only screen and (max-width: 800px) {
+  .welcome{
+  	background-image: url("../imgs/programmer-bgm.png");
+  	align-items: flex-end;
+  }
+  .welcome-intro{
+  	padding:4px;
+  	font-size: 19px;
+  	background-color: white;
+    
+  }
+  .welcome-intro .smaller-h1{
+  	font-size: 32px;
+  }
+  .intro-buttons-container{
+  	width: 80%;
+  }
+  .about-me-img{
+  	transform: scale(0.7);
+  	text-align: center;
+  }
+  .future-header{
+  	font-size: 30px;
+  	text-shadow: 25px 1px #eb3be4;
+  }
+  .skills-introduction{
+  	width: 300px;
+	padding:20px;
+	font-size: 22px;
+	text-align:center;
+	margin:auto;
+	box-shadow: 8px 8px gray;
+	border-bottom: 4px solid #eb3be4;
+	border-right: 4px solid #eb3be4;
+	border-left: 4px solid #66D3FA;
+	border-top: 4px solid #66D3FA;
+	text-transform: uppercase;
+	font-family: 'Righteous', cursive;
+	position: relative;
+  }
+  .projects-info{
+	background-color: white;
+	position: relative;
+	width: 300px;
+	padding: 25px;
+	color: #444;
+	text-align: center;
+	font-size: 21px;
+	font-family: 'Righteous', cursive;
+	font-weight: 400;
+	border-bottom: 4px solid #eb3be4;
+	border-right: 4px solid #eb3be4;
+	border-left: 4px solid #66D3FA;
+	border-top: 4px solid #66D3FA;
+   }
+	.top-footer{
+		font-size: 20px;
+		padding:10px;
+	}
+	.main-footer{
+		font-size: 20px;
 	}
 }
